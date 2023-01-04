@@ -1,5 +1,5 @@
 <template>
-	<view class="home">
+	<view>
 		
 	</view>
 </template>
@@ -9,17 +9,11 @@
 		data() {
 			return {
 				
-			}
-		},
-		onLoad() {
-
-		},
-		methods: {
-
+			};
 		}
 	}
 </script>
 
-<style lang="scss" scoped>
-	
+<style lang="scss">
+
 </style>

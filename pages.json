@@ -6,12 +6,39 @@
 				"navigationBarTitleText": "uni-app"
 			}
 		}
-	],
+	    ,{
+            "path" : "pages/self/self",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "个人中心",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
 	"globalStyle": {
-		"navigationBarTextStyle": "black",
-		"navigationBarTitleText": "uni-app",
-		"navigationBarBackgroundColor": "#F8F8F8",
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "圈子",
+		"navigationBarBackgroundColor": "#0199FE",
 		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#0199FE",
+		"list": [
+			{
+				"text": "首页",
+				"pagePath": "pages/index/index",
+				"iconPath": "/static/images/index.png",
+				"selectedIconPath": "/static/images/index-fill.png"
+			},
+			{
+				"text": "我的",
+				"pagePath": "pages/self/self",
+				"iconPath": "/static/images/self.png",
+				"selectedIconPath": "/static/images/self-fill.png"
+			}
+		]
 	},
 	"uniIdRouter": {}
 }
